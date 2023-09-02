@@ -1,0 +1,30 @@
+.btn {
+    font-size: 30px;
+    cursor: pointer;
+    width: 75px;
+    height: 75px;
+    background-color: #273c75;
+    border: 1px solid #192a56;
+}
+
+.btn:hover {
+    background-color: #192a56;
+}
+
+.btn-left {
+    border-radius: 0 0 0 13px;
+}
+
+.btn-right {
+    border-radius: 0 0 13px 0;
+}
+
+.btn-long-h {
+    width: 150px;
+}
+
+.btn-long-v {
+    height: 150px;
+    position: absolute;
+  margin-top: -75px;
+}
