@@ -1,9 +1,17 @@
+import { Component } from "react";
+
 import "./button.css";
 
-const Button = ({ type, symbol, color }) => {
-  return (
-    <button style={{color}} className={type}>{symbol}</button>
-  );
-};
+class Button extends Component {
+  
+  render() {
+    const { type, symbol, color } = this.props;
+    return (
+      <button style={{ color }} className={type}>
+        {symbol}
+      </button>
+    );
+  }
+}
 
 export default Button;

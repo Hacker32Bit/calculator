@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Header from "./components/Header/Header";
-import Container from "./components/Container/Container";
+import Header from "./components/Header";
+import Container from "./components/Container";
 import "./index.css";
 
 const App = () => {
