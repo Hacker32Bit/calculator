@@ -4,10 +4,13 @@ import "./header.css";
 
 class Header extends Component {
   render() {
+
+    const { result, input } = this.props
+
     return (
       <div className="header">
-        <h1>150</h1>
-        <h3>(15 + 60) x 2</h3>
+        <h1>{result}</h1>
+        <h3>{input}</h3>
       </div>
     );
   }
